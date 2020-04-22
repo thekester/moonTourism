@@ -1,0 +1,110 @@
+html {
+    background-color: #000452;
+    color: white;
+      scroll-behavior: smooth;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	font-family: "Corona";
+}
+
+@font-face {
+ font-family: "Corona";
+ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+        url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
+
+
+@font-face {
+ font-family: "Lolita";
+ src: url("../polices/lolita.woff2") format("woff2"),
+        url("../polices/lolita.woff") format("woff2"),
+        url("../polices/lolita.woff") format("truetype"),
+        ;
+}
+
+h1,h2 {
+    color: #fffd18;
+    text-align: center;
+    font-family:Lolita;
+    
+}
+
+:valid {
+   box-shadow: 0 0 2px 1px green;
+}
+
+.main-navigation ul li {
+
+	display:inline-block;
+	font-size: 13px;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.main-navigation {
+	margin: 0 -35px;
+	background-color: #000452;
+	font-size: 0;
+	z-index: 1499;
+}
+
+.full-container {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-navigation ul {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.main-navigation ul li a {
+transition: all 0.4s ease;
+padding: 20px 35px;
+line-height: 1em;
+box-sizing: border-box;
+}
+
+.main-navigation ul li:hover > a,
+.main-navigation ul li.focus > a {
+  background: #00bcff;
+  color: #ffffff;
+}
+
+.full-container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-navigation a {
+  display: block;
+  text-decoration: none;
+  color: #e2e2e2;
+  font-weight: bold;
+}
+
+#carouselExampleIndicators
+{
+
+	height:20%;
+
+}
+
+        
+.center
+{
+
+	margin-left:auto;
+	margin-right:auto;
+
+}
