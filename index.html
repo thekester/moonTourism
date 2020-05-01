@@ -108,49 +108,73 @@
         <p class="premierParagraphe">
             The moon is the closest body in space to Earth, with a mean distance of 238,857 miles (384,403 km).
         </p>
-        
+
         <p>
             If you want to go to the moon click <a href="html/HowToGoToTheMoon.html">here</a>
         </p>
-        
+
         <p>
             Otherwise you came to this site because it talks about the moon and you want to be interested by the moon history.
             If that's the case click <a href="html/TheMoonHistory.html">here</a>.
-        
+
         </p>
-        
+
         <p>
             Or maybe you've heard about the lunar colonies and you want to clarify that point. If that's exactly that click <a href="html/LunarColony.html"></a>
-        
-        
+
+
         </p>
 
     </main>
 
     <footer>
-        <div>
-            <ul>
-                <li>Steven</li>
-                <li>Théophile</li>
-                <li>Hanifi</li>
-            </ul>
-        </div>
 
-        <div>
-            <form action="" method="get" class="form-example">
+
+        <!--<div>
+            <form name='contact' method='post' action='POST'>
                 <div class="form-example">
-                    <input type="text" name="firstName" id="firstName" placeholder="Enter your first name here" required>
+                    <input type="text" name="name" placeholder="Nom" aria-label="Nom" maxlength="51" required>
                 </div>
                 <div class="form-example">
-                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Adresse électronique" aria-label="Adresse électronique" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" maxlength="81" required>
                 </div>
+                <textarea name="message" placeholder="message" aria-label="Message" maxlength="200" required></textarea>
                 <div class="form-example">
-                    <input type="email" name="email" id="email" placeholder="Enter your email adress here" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
-                </div>
-                <div class="form-example">
-                    <input type="submit" value="Subscribe!">
+                    <input type="submit" value="Submit!">
                 </div>
             </form>
+        </div>
+-->
+
+        <div class="form">
+
+            <h3>Envoyer nous un message</h3>
+
+            <p>Ce site a éte programmé par : </p>
+
+            <div>
+                <ul>
+                    <li>Steven Guillet</li>
+                    <li>Théophile Avenel</li>
+                    <li>Hanifi Gozen</li>
+                </ul>
+            </div>
+
+
+            <form name="contact" method="post" action="POST">
+
+                
+                <input type="text" name="name" placeholder="Nom" aria-label="Nom" maxlength="51" required>
+
+                <input type="email" name="email" placeholder="Adresse électronique" aria-label="Adresse électronique" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" maxlength="81" required>
+
+                <textarea name="message" placeholder="message" aria-label="Message" maxlength="200" required></textarea>
+
+                <input class="button_pink" type="submit" value="Envoyer">
+
+
+            </form>
+
         </div>
 
     </footer>
