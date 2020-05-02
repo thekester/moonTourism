@@ -1,0 +1,74 @@
+@media screen and (min-width: 0px) and (max-width: 800px)
+{
+
+    .disparitionPetit
+    {
+        display: none;
+    }
+
+    p
+    {
+        margin: 0;
+        text-align: center;
+        line-height: 175%;
+    }
+
+    .texte
+    {
+        margin:0;
+        margin-top: -35%;
+    }
+
+    h2
+    {
+        margin: 0;
+    }
+
+    #apollo
+    {
+        margin-right: 60%;
+        margin: 0;
+        height: 50%;
+    }
+
+    #rowApollo
+    {
+        flex-direction: column;
+    }
+
+    #apolloPDF
+    {
+        margin-left: 17.5%;
+        height:100%;
+        width:50%;
+        margin-top: 3%;
+    }
+
+    #apolloLink
+    {
+        margin-left: 6%;
+        margin-top: 2%;
+    }
+
+    #marginTopSpecialLaunchRocket
+    {
+        margin-left: 24%;
+    }
+
+    .rowSpecialImages
+    {
+        margin: 0;
+    }
+
+    .rowSpecialTexteEtImage
+    {
+        flex-direction: column-reverse;
+    }
+
+    #moonInTheHistory
+    {
+        margin: 0;
+        margin-left: 8%;
+    }
+
+}
