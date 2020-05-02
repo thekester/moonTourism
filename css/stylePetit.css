@@ -16,7 +16,6 @@
     .texte
     {
         margin:0;
-        margin-top: -35%;
     }
 
     h2
@@ -69,6 +68,26 @@
     {
         margin: 0;
         margin-left: 8%;
+    }
+
+    #texteLunarColony
+    {
+        margin-top:-20%;
+    }
+
+    #texteMoonHistory
+    {
+        margin-top: 2%;
+    }
+
+    .imgProducts
+    {
+        flex-direction: column;
+    }
+
+    .imgAndPrice > img
+    {
+        margin-left: 22.5%;
     }
 
 }
