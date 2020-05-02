@@ -277,3 +277,21 @@ h2{
 {
     margin: 0;
 }
+
+#informationsABoutWhoHasProgrammedTheWebsite
+{
+    margin: 0;
+    margin-bottom: 1%;
+}
+
+.imgRight
+{
+    width: 20%;
+    height: auto;
+}
+
+.imgRight > img
+{
+    height:60%;
+    width: auto;
+}
