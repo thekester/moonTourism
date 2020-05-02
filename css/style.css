@@ -128,10 +128,9 @@ box-sizing: border-box;
 
 p
 {
-    margin-left:25%;
+    margin-left:32.5%;
     font-size: 1.2rem;
     line-height: 140%;
-    margin-right:25%;
 }
 
 .premierParagraphe
@@ -198,10 +197,26 @@ p
     box-shadow: 0 0 2px 1px red;
 }
 
-.imgProducts > img {
+.imgProducts >  img {
     width: 20%;
     height: auto;
 }
+
+.imgAndPrice {
+    display: flex;
+    flex-direction : column;
+}
+
+.imgAndPrice img{
+    width : 400px;
+    height : auto;
+}
+
+.imgAndPrice p{
+    text-align: center;
+    margin: 0;
+}
+
 .subtitleProducts
 {
     margin-bottom: 4%;
@@ -212,4 +227,53 @@ p
 {
     display : flex;
     justify-content: space-around;
+}
+
+#apollo
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    width: 140%;
+}
+
+#apollo > img
+{
+    width:50%;
+    margin-right: 14.5%;
+    margin-left: auto;
+}
+
+#rowApollo
+{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#apolloPDF
+{
+    margin-left:72.5%;
+    height:50%;
+    width: 100%;
+}
+
+h2{
+    margin-left: 32.5%;
+}
+
+#apolloLink
+{
+    margin-left: 30%;
+}
+
+#marginTopSpecialLaunchRocket
+{
+    margin-top: -10%;
+}
+
+.margin0
+{
+    margin: 0;
 }
