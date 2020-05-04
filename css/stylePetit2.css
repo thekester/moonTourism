@@ -56,7 +56,7 @@
 
     #marginTopSpecialLaunchRocket
     {
-        margin-left: 24%;
+        margin-left: 0;
     }
 
     .rowSpecialImages
@@ -114,6 +114,11 @@
     .imgRight > img
     {
         height: 50%;
+    }
+
+    #marginTopSpecialLaunchRocket
+    {
+        margin-top: 0;
     }
 
 

@@ -128,7 +128,7 @@ box-sizing: border-box;
 
 p
 {
-    margin-left:32.5%;
+    margin-left:20%;
     font-size: 1.2rem;
     line-height: 140%;
 }
@@ -259,9 +259,6 @@ p
     width: 100%;
 }
 
-h2{
-    margin-left: 32.5%;
-}
 
 #apolloLink
 {
@@ -308,4 +305,8 @@ h2{
 
 #texteMoonHistory > p{
     margin-left: 36%;
+}
+
+h3{
+    text-align:center;
 }
